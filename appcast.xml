@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>OpenClaw</title>
+        <title>OMEClaw</title>
         <item>
             <title>2026.3.2</title>
             <pubDate>Tue, 03 Mar 2026 04:30:29 +0000</pubDate>
@@ -9,7 +9,7 @@
             <sparkle:version>2026030290</sparkle:version>
             <sparkle:shortVersionString>2026.3.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>OpenClaw 2026.3.2</h2>
+            <description><![CDATA[<h2>OMEClaw 2026.3.2</h2>
 <h3>Changes</h3>
 <ul>
 <li>Secrets/SecretRef coverage: expand SecretRef support across the full supported user-supplied credential surface (64 targets total), including runtime collectors, <code>openclaw secrets</code> planning/apply/audit flows, onboarding SecretInput UX, and related docs; unresolved refs now fail fast on active surfaces while inactive surfaces report non-blocking diagnostics. (#29580) Thanks @joshavant.</li>
@@ -228,7 +228,7 @@
             <sparkle:version>2026030190</sparkle:version>
             <sparkle:shortVersionString>2026.3.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>OpenClaw 2026.3.1</h2>
+            <description><![CDATA[<h2>OMEClaw 2026.3.1</h2>
 <h3>Changes</h3>
 <ul>
 <li>Agents/Thinking defaults: set <code>adaptive</code> as the default thinking level for Anthropic Claude 4.6 models (including Bedrock Claude 4.6 refs) while keeping other reasoning-capable models at <code>low</code> unless explicitly configured.</li>
